@@ -12,6 +12,7 @@ import { useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Background3D from "../components/Background3D";
+import SEO from "../components/SEO";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -199,6 +200,13 @@ useLayoutEffect(() => {
   return (
     
     <main className="bg-[#16011b] overflow-x-hidden">
+
+        <SEO
+        title="Samuel T Thomas | AI Engineer & Full Stack Developer"
+        description="Building AI assistants, automation systems, modern web applications and innovative software solutions."
+        image="https://portfolio-one-ochre-63.vercel.app/preview.png"
+        url="https://portfolio-one-ochre-63.vercel.app/"
+      />
      
         <div className="fixed inset-0 -z-10">
           
